@@ -5,5 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <button onclick="showInput()">Show</button>
+    <input id="textInput" />
+    <button onclick="hideInput()">Hide</button>
+    <script>
+      //   let num = 0;
+      //   let el = document.createElement("h3");
+      //   el.innerHTML = "number updated to: " + num;
+      //   document.body.appendChild(el);
+      //   function increase() {
+      //     num++;
+      //     el.innerHTML = "number updated to: " + num;
+      //     document.body.appendChild(el);
+      //   }
+      //   function decrease() {
+      //     el.innerHTML = "number updated to: " + num;
+      //     document.body.appendChild(el);
+      //   }
+      let inputEl = document.getElementById("textInput");
+      function showInput() {
+        inputEl.style.display = "inline";
+      }
+      function hideInput() {
+        inputEl.style.display = "none";
+      }
+    </script>
+  </body>
 </html>
