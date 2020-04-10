@@ -1,0 +1,26 @@
+.navigate {
+  display: flex;
+  justify-content: space-between;
+}
+
+.otherPages > a {
+  margin-right: 30px;
+}
+header {
+  background-color: yellow;
+  padding: 10px;
+}
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.activePage {
+  background-color: deepskyblue;
+}
+/* a:hover {
+  background-color: red;
+  font-size: 20px;
+} */
